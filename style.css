@@ -1,0 +1,92 @@
+.profile{
+    border-radius:8px;
+    height:534px;
+    width:415px;
+    margin:241px auto;
+    border:2px solid transparent;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+.logos{
+    height:160px;
+    width:144px;
+    background-image: url("sameera.jpeg");
+    background-size: cover;
+    border-radius:50%;
+    margin:57px;
+    border:5px solid white;
+    border-bottom: 3px solid #10afe4;
+    position: absolute;
+}
+.soc{
+    display:flex;
+    justify-content: space-evenly;
+    margin:0px;
+    text-decoration: none;
+}
+.mess{
+    display:flex;
+    justify-content: space-evenly;
+    margin: 36px;
+}
+#one{
+    height:30px;
+    width:148px;
+    background-color:#10afe4;
+    border-radius:19px;
+    text-align:center;
+    color:white;
+    font-weight: bolder;
+    padding-top:8px;
+}
+
+.sym{
+    display:flex;
+     justify-content: space-evenly;
+     margin:30px;
+}
+.blue{
+    height:206px;
+    width:415px;
+    background-color:#10afe4;
+    border-radius:8px;
+    display:flex;
+    justify-content: center;
+    
+}
+.mec{
+    display: flex;
+}
+.p{
+    text-align: center;
+    font-size: 23px;
+    height:53px;
+    width:204px;
+    margin:27px;
+}
+.tem{
+    display:flex;
+    justify-content: center;
+    margin-top: 18px;
+    animation:myname 2s linear 0s infinte normal;
+}
+#one:hover{
+    transform: scale(1.05);
+    transition:0.3s;
+}
+#so:hover{
+    transform: scale(2);
+    transition: 0.3s;
+}
+#heart:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+@keyframe myname{
+    from{
+        Coding Lab YouTuber & Blogger;
+    }
+    to{
+        Apaiya's world;
+    }
+}
